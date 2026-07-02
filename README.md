@@ -1,18 +1,16 @@
-<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SearXNG_logo.svg">
+<img src="https://upload.wikimedia.org/wikipedia/commons/a/a3/SearXNG_logo.svg" width="200">
 
-- Docker Installation
-  ### Install Docker, BuildX and Compose
-  ```sudo pacman -Syu docker docker-buildx docker-compose```
-
-  ### Allow your user to run Docker commands without root access
-  ```sudo usermod -aG docker $USER```
-
-  ### Ensure the Docker daemon is started and starts on boot
-  ```sudo systemctl enable --now docker.service```
-
-- installation 
+| First install Docker on your System
+  [Docker Installation](https://docs.docker.com/engine/install)
+  
+  
+| Searxng Installation 
   [Docker searxng](https://docs.searxng.org/admin/installation-docker.html#compose-instancing)
 
-- Configuration File
+| Grab my Configuration File
   [settings.yml](https://github.com/user7210unix/searxng/blob/main/settings.yml)
-- file location ```~/searxng/core-config/settings.yml```
+
+
+| Place the downloaded settings file in this location (at least on linux based systems) 
+
+```~/searxng/core-config/settings.yml```
