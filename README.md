@@ -1,0 +1,2 @@
+# searxng
+Configuration File
